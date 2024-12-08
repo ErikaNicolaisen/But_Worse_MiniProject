@@ -17,6 +17,6 @@ public class SceneController : MonoBehaviour
         Debug.Log("Restart button clicked");
         PlayerHealth.isPlayerAlive = true;
         ScoreManager.instance = null;
-        SceneManager.LoadScene("SampleScene"); // Loads the "SampleScene"
+        SceneManager.LoadScene("SampleScene");
     }
 }
